@@ -58,7 +58,7 @@ const AboutSection = () => {
         {/* <Image src="/images/about-image.png" width={500} height={500} alt="About Img" /> */}
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
-          <p className="text-base lg:text-lg">
+          <p className="text-base lg:text-lg text-justify">
            Undergraduate student in Informatics at the University of Bengkulu with experience as a Junior Web Developer and Laboratory Assistant. Skilled in developing and maintaining web applications using React, Laravel, Node.js, Express.js, and MySQL. Interested in Artificial Intelligence and Machine Learning, with a foundational understanding of data processing and model implementation. Comfortable working both independently and as part of a team.
           </p>
           <div className="flex flex-row justify-start mt-8">

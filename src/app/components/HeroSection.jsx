@@ -36,7 +36,7 @@ const HeroSection = () => {
               repeat={Infinity}
             />
           </h1>
-          <p className='text-[#ADB7BE] mb-6 text-base sm:text-lg lg:text-xl '>
+          <p className='text-[#ADB7BE] mb-6 text-base sm:text-lg lg:text-xl md:text-justify '>
             An undergraduate Informatics student at the University of Bengkulu, passionate about Web Development, AI, and Machine Learning. I create web applications using React, Node.js, Laravel, and MySQL, and I enjoy turning ideas into functional digital experiences.
           </p>
           <div>

@@ -59,6 +59,15 @@ const projectsData = [
     gitUrl: "https://github.com/Mr22XX/SmartRute",
     previewUrl: "/",
   },
+  {
+    id: 7,
+    title: "Coming Soon",
+    description: "On Developing !",
+    image: "/images/projects/comsoon.jpg",
+    tag: ["All", "ML"],
+    gitUrl: "/",
+    previewUrl: "/",
+  },
 ];
 
 const ProjectsSection = () => {

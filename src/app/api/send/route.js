@@ -11,7 +11,7 @@ export async function POST(req) {
       from: process.env.FROM_EMAIL,
       to: email,
       subject,
-      html: `<p>Terima Kasih Telah Menghubungi Saya !</p>`,
+      html: `<p>Terima Kasih Telah Menghubungi Saya ! Your message : {{message}} </p> ` ,
     });
 
     return NextResponse.json({ success: true, data });
